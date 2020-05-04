@@ -19,10 +19,18 @@
 
     <title>Digitalt Byrå, Digital Marknadsföring, Webbutveckling, UXUI, SEO, Ads, Design</title>
 
-    <!--  -->
+    <!--  Favicon -->
     <link rel="icon" href="img/favicon.png" sizes="200x200">
+    
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
 
     <!-- Custom Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -91,6 +99,12 @@
     src="https://www.facebook.com/tr?id=626573238128209&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Facebook Pixel Code -->
+  
+  <!-- Flickity  -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
 
@@ -439,6 +453,76 @@ i den digitala världen</h1>
       </div>
   </aside>
  -->
+  
+<section class="no-padding our-customers" id="our-customers">
+  <div class="container" >
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Våra kunder</h2>
+              <hr class="primary">
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row no-gutter">
+    
+      <div class="carousel" data-flickity='
+      { 
+        "groupCells": false,
+        "cellAlign": "center",
+        "cellSelector": "",
+        "wrapAround": false,
+        "draggable": true,
+        "contain": true
+
+      }'>
+        <div class="carousel-cell">
+          <img src="/img/logos/anils.png" class="img-responsive"> 
+        </div>
+        <div class="carousel-cell">
+          <img src="/img/logos/emeg.png" class="img-responsive"> 
+        </div>
+        <div class="carousel-cell">
+          <img src="/img/logos/mh.png" class="img-responsive"> 
+        </div>
+        <div class="carousel-cell">
+          <img src="/img/logos/waseela.png" class="img-responsive"> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+
+  .carousel {
+    background: #fff;
+    align-items: center;
+  }
+
+  .carousel-cell {
+    width: 22%;
+    height: 350px;
+    background: #fff;
+    border-radius: 0px;
+  }
+
+  .carousel-cell img {
+    margin: auto;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-cell {
+      width: 90%;
+      height: 300px;
+      background: #fff;
+      border-radius: 0px;
+  }
+          
+ }
+</style>
+
   <section id="contact">
     <div class="container">
         <div class="row">
