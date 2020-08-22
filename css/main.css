@@ -317,3 +317,11 @@ body {
     max-height: 130px;
     opacity: .5;
     user-select: none; }
+
+a:hover {
+  background-color: #92D147;
+  color: white;
+  text-decoration: none; }
+
+a {
+  color: white; }
