@@ -304,3 +304,16 @@ body {
 
 .our-customers {
   margin-top: 60px; }
+
+.ftg-logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .ftg-logos .ftg-logo {
+    margin: 20px auto;
+    padding: 0 10px;
+    max-height: 130px;
+    opacity: .5;
+    user-select: none; }
